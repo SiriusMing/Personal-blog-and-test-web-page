@@ -1,0 +1,359 @@
+/*This is the rough css style for the main part of the home page*/
+
+/*A common box model style is set*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  margin-top:0px;
+  margin-right:0px;
+  margin-bottom:0px;
+  margin-left:0px;
+}
+
+#present{
+  color:#000000;
+}
+
+.intro{
+  color:#7b7c7b;
+}
+
+
+#interest{
+  color:#7b7c7b;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+/*color set of songs*/
+.songname{
+  color: #d983a6;
+}
+
+/*style of the chocoholic section*/
+#chocoholic{
+  color:#e47967;
+}
+
+#icdwob{
+  color:#d983a6;
+}
+
+#iktr1f{
+  color:#d983a6;
+}
+
+
+#header-wrap{
+  background-color:rgb(248, 237, 235);
+}
+
+#iguzg{
+  border-top-color:rgb(0, 0, 0);
+  border-right-color:rgb(0, 0, 0);
+  border-bottom-color:rgb(0, 0, 0);
+  border-left-color:rgb(0, 0, 0);
+  color:rgb(254, 200, 154);
+}
+
+/*About the format of the layout of each section*/
+.c10580{
+  font-size:46px;
+}
+
+.c10609{
+  line-height:1.6;
+}
+
+.c10525{
+  z-index:2;
+}
+
+.c10749{
+  font-size:42px;
+}
+.c10777{
+  line-height:1.6;
+}
+.c10699{
+  z-index:2;
+}
+.c10516{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url("https://img2.huashi6.com/images/resource/thumbnail/2022/10/29/124954_99493783432.jpg?imageMogr2/quality/75/interlace/1/thumbnail/x700/gravity/Center/crop/700x700/format/webp");
+  background-position-x:0%, right;
+  background-position-y:0%, center;
+  background-size:auto, auto 100%;
+  background-repeat:repeat;
+  background-attachment:scroll, scroll;
+  background-origin:padding-box, padding-box;
+  background-clip:border-box, border-box;
+  background-color:transparent;
+}
+
+.c10691{
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url("https://img2.huashi6.com/images/resource/thumbnail/2023/04/03/15115_8659703622.jpg?imageMogr2/quality/75/interlace/1/thumbnail/700x/gravity/North/crop/700x853/format/webp");
+  background-position-x:0%, right;
+  background-position-y:0%, bottom;
+  background-size:auto, auto 100%;
+  background-repeat:repeat;
+  background-attachment:scroll, scroll;
+  background-origin:padding-box, padding-box;
+  background-clip:border-box, border-box;
+  background-color:transparent;
+}
+
+.c11051{
+  font-size:42px;
+  letter-spacing:-1px;
+}
+
+/*The color style of the top-color in the card section*/
+.c11411{
+  border-top-color:rgb(157, 195, 226);
+}
+
+.c11473{
+  border-top-color:rgb(255, 181, 204);
+}
+.c11561{
+  border-top-color:rgb(244, 171, 239);
+}
+.c11622{
+  border-top-color:rgb(242, 164, 144);
+}
+.c11710{
+  border-top-color:rgb(157, 210, 216);
+}
+.c11771{
+  border-top-color:rgb(208, 230, 165);
+}
+
+/*The layout of the card section*/
+.c11553{
+  margin-top:30px;
+}
+.c11702{
+  margin-top:60px;
+}
+.c16672{
+  font-size:42px;
+  letter-spacing:-1px;
+}
+.c16637{
+  max-width:700px;
+}
+.c18206{
+  font-size:42px;
+  letter-spacing:-1px;
+}
+
+.c18234{
+  line-height:1.7;
+}
+
+/*Layout of the music introduction part*/
+.c11378{
+  background-color:rgba(126, 150, 128, 0.2);
+  padding-top:100px;
+  padding-right:0px;
+  padding-bottom:100px;
+  padding-left:0px;
+}
+
+.c10974{
+  overflow-x:visible;
+  overflow-y:visible;
+}
+
+/*Set border color*/
+.header-row.justify-content-lg-between{
+  border-top-color:rgb(119, 35, 35);
+  border-right-color:rgb(119, 35, 35);
+  border-bottom-color:rgb(119, 35, 35);
+  border-left-color:rgb(119, 35, 35);
+  background-color:rgb(248, 237, 235);
+}
+
+.btn.rounded.bg-white.color.text-uppercase.fw-semibold.ls-1.py-3.px-4{
+  color:rgb(254, 200, 154);
+}
+.section.section-cards.mb-0.c11378{
+  background-color:rgb(255, 229, 217);
+  background-image:none, none, url(https://s1.aigei.com/prevfiles/37dfcc23ec054d9fb579878119f5e665.gif?e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:ICMr80wjg2CyIKRvxhqoXGIVF8M=);
+}
+.fw-normal.color.font-body{
+  color:rgb(254, 200, 154);
+}
+.fw-normal.text-transform-none{
+  color:#fd745c;
+}
+.fw-bold.text-transform-none.c11051{
+  color:#7aa089;
+}
+.c48548{
+  color:#ecc28b;
+}
+.fancy-title.title-border.mb-3{
+  color:#fec89a;
+}
+
+/*The background of the profile part*/
+.fbox-icon{
+  background-image:url('https://s1.aigei.com/src/img/gif/77/77ba2b37ef11481a9e375767236f3835.gif?imageMogr2/auto-orient/thumbnail/!282x282r/gravity/Center/crop/282x282/quality/85/%7CimageView2/2/w/282&e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:F6oRSNvvuS-ZzVhxFoHpoFdrSUk=');
+}
+/*The color of the card-body*/
+.card-body{
+  color:#d983a6;
+}
+
+.htmlpage-row{
+  display:table;
+  padding-top:10px;
+  padding-right:10px;
+  padding-bottom:10px;
+  padding-left:10px;
+  width:100%;
+}
+
+.p1{
+  color:black;
+  width:77px;
+  height:74.6px;
+}
+
+/*The text color of the head section*/
+.fw-bold.text-transform-none.ls-0.c10580{
+  color:#e8e8e4;
+}
+
+.block1{
+  color:#000000;
+}
+
+.c57838{
+  color:#f9be8b;
+}
+
+.c59878{
+  color:black;
+  width:78.4px;
+  height:70px;
+}
+
+.content-wrap.pt-0.c10974{
+  background-image:none, none, url(https://s1.aigei.com/prevfiles/37dfcc23ec054d9fb579878119f5e665.gif?e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:ICMr80wjg2CyIKRvxhqoXGIVF8M=);
+}
+
+.c66448{
+  color:black;
+  width:639px;
+  height:1113.8px;
+}
+
+/*The layout of the music introduction part*/
+.c67391 {
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bolder;
+  font-family: 'Arial', sans-serif; 
+
+}
+
+/*The title's style of the music section*/
+.c67580 {
+    color: #e47967;
+    
+    text-align: right; 
+}
+
+.c69086{
+  color:black;
+  width:225.6px;
+  height:226px;
+}
+
+/*The color when hover the song link*/
+.playsound{
+  color:#d983a6;
+}
+
+/*Layout of the picture and text of the music section*/
+.c71592{
+  color:black;
+  width:223.6px;
+  height:224px;
+}
+.c72211{
+  color:black;
+  width:230px;
+  height:230px;
+}
+.c72545{
+  color:black;
+  width:233.2px;
+  height:233px;
+}
+.c72790{
+  color:black;
+  width:224px;
+  height:223.6px;
+}
+.c73048{
+  color:black;
+  width:225.2px;
+  height:225px;
+}
+.section.section-price.bg-transparent{
+  font-weight:700;
+}
+.text-center.text-title{
+  color:#e47967;
+}
+.c75185{
+  color:rgb(13, 13, 13);
+  font-size:16px;
+  white-space-collapse:preserve;
+}
+
+/*The layout of the gallery part*/
+.fw-normal{
+  color:#e47967;
+  font-weight:800;
+}
+.c75798{
+  color:black;
+}
+.c76147{
+  color:black;
+}
+.c76472{
+  color:#d983a6;
+}
+.c76898{
+  color:black;
+  width:65.6px;
+  height:66px;
+}
+.c77842{
+  color:black;
+  width:472px;
+  height:236px;
+}
+.mb-5.fw-normal.lead.c10609{
+  color:#fdf6f6;
+}
+.fw-bold.text-transform-none.c18206{
+  color:#91af9d;
+}
+
+/*The layout of the video*/
+.c79241{
+  height:330px;
+  width:560px;
+ overflow: auto;
+
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Userpage</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- user name -->
+    <section class="name">
+        <div class="name_box">
+            <!-- Left side of the name box -->
+            <div class="left">
+                <!-- Top link to return home -->
+                <div class="home_link"><a href="index.html"><img src="" alt="">Return my Introduction</a></div>
+                <!-- Contact form -->
+                <div class="contact">
+                    <!-- Form for submitting username -->
+                    <form action="mainpage.html">
+                        <!-- Title for username input -->
+                        <h3>Tell me your name ~</h3>
+                        <!-- Input field for username -->
+                        <input type="text" placeholder="YOUR NAME" name="username" id="username">
+                        <!-- Button to submit form -->
+                        <button type="submit" class="submit" onclick="store()">Start it!</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Right side of the name box -->
+            <div class="right">
+                <div class="video-background">
+                    <video autoplay loop muted playsinline>
+                        <source src="//cdnimg.gamekee.com/wiki2.0/video/829/43637/2023/7/9/36576.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+                    </video>
+                </div>
+                <div class="right-text">
+                    <h1>Quiz entry</h1>
+                    <h3>Thank you for getting to know Blue Archive!</h3>
+                </div>
+            </div>
+    </section>
+    <script>
+        //to store the user name
+        function store()
+        {
+            let username = '';
+            const usernameInput = document.getElementById('username');
+            username = usernameInput.value;
+            localStorage.setItem('username', username);
+        }
+    </script>
+</body>
+
+</html>

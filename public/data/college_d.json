@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "question": "Who is the current leader of Millennium Science Academy's Student Council?",
+        "options": ["Rio", "Yuuka", "Noa", "Miku"],
+        "correctanswer": "Rio",
+        "incorrect_answers": ["Yuuka", "Noa", "Miku"]
+      },
+      {
+        "question": "What is the main focus of Millennium Science Academy?",
+        "options": ["Arts and Literature", "Science and Technology", "Sports and Athletics", "Music and Performing Arts"],
+        "correctanswer": "Science and Technology",
+        "incorrect_answers": ["Arts and Literature", "Sports and Athletics", "Music and Performing Arts"]
+      },
+      {
+        "question": "Which academy is the newest among the three biggest academies in Kivotos?",
+        "options": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"],
+        "correctanswer": "Millennium Science Academy",
+        "incorrect_answers": ["Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"]
+      },
+      {
+        "question": "Who leads the Seminar faction in Millennium Science Academy?",
+        "options": ["Rio", "Yuuka", "Noa", "Miku"],
+        "correctanswer": "Rio",
+        "incorrect_answers": ["Yuuka", "Noa", "Miku"]
+      },
+      {
+        "question": "Which academy was shut down due to the disappearance of the GSC President?",
+        "options": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"],
+        "correctanswer": "SRT Special Academy",
+        "incorrect_answers": ["Millennium Science Academy", "Holy Trinity Academy", "Valkyrie Academy"]
+      },
+      {
+        "question": "Which academy is known for its skilled elite students and harsh training?",
+        "options": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"],
+        "correctanswer": "SRT Special Academy",
+        "incorrect_answers": ["Millennium Science Academy", "Holy Trinity Academy", "Valkyrie Academy"]
+      },
+      {
+        "question": "Who serves as the Treasurer of Millennium Science Academy's Student Council?",
+        "options": ["Rio", "Yuuka", "Noa", "Miku"],
+        "correctanswer": "Yuuka",
+        "incorrect_answers": ["Rio", "Noa", "Miku"]
+      },
+      {
+        "question": "What is the name of the protest organized by some students from SRT Special Academy?",
+        "options": ["Kivotos Occupation", "Millennium Rebellion", "Holy Trinity March", "Valkyrie Revolt"],
+        "correctanswer": "Kivotos Occupation",
+        "incorrect_answers": ["Millennium Rebellion", "Holy Trinity March", "Valkyrie Revolt"]
+      },
+      {
+        "question": "Which academy is highly regarded for its cutting-edge technology and inventions?",
+        "options": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"],
+        "correctanswer": "Millennium Science Academy",
+        "incorrect_answers": ["Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"]
+      },
+      {
+        "question": "Who serves as the Secretary of Millennium Science Academy's Student Council?",
+        "options": ["Rio", "Yuuka", "Noa", "Miku"],
+        "correctanswer": "Noa",
+        "incorrect_answers": ["Rio", "Yuuka", "Miku"]
+      },
+      {
+        "question": "Which academy was given authority to freely mobilize around Kivotos unrestricted by district regulations?",
+        "options": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"],
+        "correctanswer": "SRT Special Academy",
+        "incorrect_answers": ["Millennium Science Academy", "Holy Trinity Academy", "Valkyrie Academy"]
+      },
+      {
+        "question": "What is the occupation of the members of the Millennium Science Academy's Student Council?",
+        "options": ["Artists", "Athletes", "Scientists", "Politicians"],
+        "correctanswer": "Scientists",
+        "incorrect_answers": ["Artists", "Athletes", "Politicians"]
+      },
+      {
+        "question": "Which academy did most of the students from SRT Special Academy transfer to?",
+        "options": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"],
+        "correctanswer": "Valkyrie Academy",
+        "incorrect_answers": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy"]
+      },
+      {
+        "question": "What is the name of the faction that leads Millennium Science Academy?",
+        "options": ["Seminar", "Pater", "Filius", "Sanctus"],
+        "correctanswer": "Seminar",
+        "incorrect_answers": ["Pater", "Filius", "Sanctus"]
+      },
+      {
+        "question": "Which academy is the newest addition to the three biggest academies in Kivotos?",
+        "options": ["Millennium Science Academy", "Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"],
+        "correctanswer": "Millennium Science Academy",
+        "incorrect_answers": ["Holy Trinity Academy", "SRT Special Academy", "Valkyrie Academy"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,94 @@
+{"questions": [
+  {
+    "question": "Who is the leader of Abidos High School?",
+    "options": ["Principal Baldwin", "Principal Harris", "Principal Johnson", "Principal Roberts"],
+    "correctanswer": "Principal Baldwin",
+    "incorrect_answers": ["Principal Harris", "Principal Johnson", "Principal Roberts"]
+  },
+  {
+    "question": "What caused Abidos High School to go bankrupt?",
+    "options": ["Natural disaster", "Mismanagement of funds", "Lack of student enrollment", "Financial fraud"],
+    "correctanswer": "Natural disaster",
+    "incorrect_answers": ["Mismanagement of funds", "Lack of student enrollment", "Financial fraud"]
+  },
+  {
+    "question": "How many students are currently attending Abidos High School?",
+    "options": ["10", "20", "5", "15"],
+    "correctanswer": "5",
+    "incorrect_answers": ["10", "20", "15"]
+  },
+  {
+    "question": "Which organization does Abidos High School owe a massive debt to?",
+    "options": ["Kaiser Corporation", "Trinity Alliance", "GSC President", "Valyrie Academy"],
+    "correctanswer": "Kaiser Corporation",
+    "incorrect_answers": ["Trinity Alliance", "GSC President", "Valyrie Academy"]
+  },
+  {
+    "question": "Who leads the foreclosure task force at Abidos High School?",
+    "options": ["Beatrice", "Baldwin", "Johnson", "Roberts"],
+    "correctanswer": "Beatrice",
+    "incorrect_answers": ["Baldwin", "Johnson", "Roberts"]
+  },
+  {
+    "question": "Which area of Abidos High School has been sold to Kaiser Corporation?",
+    "options": ["Annex", "Main building", "Gymnasium", "Cafeteria"],
+    "correctanswer": "Annex",
+    "incorrect_answers": ["Main building", "Gymnasium", "Cafeteria"]
+  },
+  {
+    "question": "What is the main responsibility of the foreclosure task force at Abidos High School?",
+    "options": ["Protecting the school's assets", "Collecting outstanding debts", "Ensuring student safety", "Preventing the school's closure"],
+    "correctanswer": "Preventing the school's closure",
+    "incorrect_answers": ["Protecting the school's assets", "Collecting outstanding debts", "Ensuring student safety"]
+  },
+  {
+    "question": "Who is the acting council of Abidos High School?",
+    "options": ["Forceclosure Task Force", "Valyrie Academy", "Trinity Alliance", "GSC President"],
+    "correctanswer": "Forceclosure Task Force",
+    "incorrect_answers": ["Valyrie Academy", "Trinity Alliance", "GSC President"]
+  },
+  {
+    "question": "What is the only club in Abidos High School?",
+    "options": ["Foreclosure Task Force", "Science Club", "Art Club", "Drama Club"],
+    "correctanswer": "Foreclosure Task Force",
+    "incorrect_answers": ["Science Club", "Art Club", "Drama Club"]
+  },
+  {
+    "question": "Who is responsible for the day-to-day operations of Abidos High School?",
+    "options": ["Principal Baldwin", "Principal Harris", "Principal Johnson", "Principal Roberts"],
+    "correctanswer": "Principal Baldwin",
+    "incorrect_answers": ["Principal Johnson", "Principal Harris", "Principal Roberts"]
+  },
+  {
+    "question": "What is the current state of Abidos High School?",
+    "options": ["Bankrupt and in debt", "Flourishing with numerous students", "Recovering from a natural disaster", "Rebuilding after a fire"],
+    "correctanswer": "Bankrupt and in debt",
+    "incorrect_answers": ["Flourishing with numerous students", "Recovering from a natural disaster", "Rebuilding after a fire"]
+  },
+  {
+    "question": "What is the main goal of the foreclosure task force at Abidos High School?",
+    "options": ["To prevent the closure of the school", "To collect outstanding debts", "To maintain order within the school", "To sell off school assets"],
+    "correctanswer": "To prevent the closure of the school",
+    "incorrect_answers": ["To collect outstanding debts", "To maintain order within the school", "To sell off school assets"]
+  },
+  {
+    "question": "Which faction has taken over Abidos High School?",
+    "options": ["Valyrie Academy", "Trinity Alliance", "Kaiser Corporation", "Forceclosure Task Force"],
+    "correctanswer": "Forceclosure Task Force",
+    "incorrect_answers": ["Valyrie Academy", "Trinity Alliance", "Kaiser Corporation"]
+  },
+  {
+    "question": "What is the primary role of the students at Abidos High School?",
+    "options": ["To help with the school's finances", "To act as assistants to the foreclosure task force", "To continue their studies despite the challenges", "To protest against the closure of the school"],
+    "correctanswer": "To continue their studies despite the challenges",
+    "incorrect_answers": ["To help with the school's finances", "To act as assistants to the foreclosure task force", "To protest against the closure of the school"]
+  },
+  {
+    "question": "Who is leading the efforts to save Abidos High School from closure?",
+    "options": ["Principal Baldwin", "Beatrice", "GSC President", "Valyrie Academy"],
+    "correctanswer": "Beatrice",
+    "incorrect_answers": ["Principal Baldwin", "GSC President", "Valyrie Academy"]
+  }
+  
+]
+}

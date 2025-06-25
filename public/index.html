@@ -1,0 +1,485 @@
+<!--This is the home page
+    And this is the start page
+    This page is using Bootstrap's responsive design-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Set document character encoding -->
+        <meta charset="utf-8">
+        <!-- Set document title -->
+        <title>my personal blog</title>
+        <!-- Set viewport for mobile devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Include Popper.js library -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <!-- Include Bootstrap JavaScript library -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+        <!-- Include custom stylesheet -->
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- Include Swiper stylesheet -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <!-- Include Swiper JavaScript library -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- Include detail page stylesheet -->
+        <link rel="stylesheet" href="css/detail.css" />
+        <!-- Include frame stylesheet -->
+        <link rel="stylesheet" href="css/frame.css" />
+        <!-- Include Bootstrap icons font -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" />
+    </head>
+
+		<body>
+			<div>
+                <!--Title name-->
+                <title>Home Page</title>
+    
+                <div id="wrapper">
+                <!-- Top Bar -->
+                <div id="top-bar" class="dark">
+                    <div class="container"></div>
+                </div>
+
+                <!-- Header -->
+                <header id="header" data-sticky-shrink="false" data-sticky-offset="52" class="border-full-header header-size-custom">
+                    <div id="header-wrap">
+                        <div class="container">
+                            <div class="header-row justify-content-lg-between">
+
+                <!-- Primary Navigation============================================= -->
+                                <nav class="primary-menu order-lg-1 col-lg-5 px-0">
+                                    <!-- Menu Left -->
+                                    <ul class="menu-container">
+                                        <li class="current menu-item"><a href="#" class="menu-link"><div id="iguzg">Home</div></a></li>
+                                        <li class="menu-item"><a href="html/about.html" class="menu-link"><div>About</div></a></li>
+                                        <li class="menu-item">
+                                            <a  class="menu-link"><div>Interest</div></a>
+                                            <ul class="sub-menu-container">
+                                                <!--list item-->
+                                                <li class="menu-item"><a href="html/1.html" class="menu-link"><div>Anime</div></a></li>
+                                                <li class="menu-item"><a href="html/2.html" class="menu-link"><div>Astronomy</div></a></li>
+                                                <li class="menu-item"><a href="html/3.html" class="menu-link"><div>Poet</div></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a href="entry.html" class="menu-link"><div>quiz</div></a></li>
+                                        <img src="img/p2.png" class="c59878" alt="head"/>
+                                    </ul>
+                                </nav>
+                                <!-- #primary-menu end -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Copy header fixed at the top during page scrolling-->
+                    <div class="header-wrap-clone"></div>
+                </header>
+                <!-- #header end -->
+
+                <!-- Slider-->
+                <section id="slider" data-effect="fade" class="slider-element swiper_wrapper min-vh-100">
+                    <div class="slider-inner">
+                        <div class="swiper swiper-parent">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide 1 -->
+                                <div id="introimg1" class="swiper-slide intro-diagonal dark bg-color c10516" style="background-image: url('https://img2.huashi6.com/images/resource/thumbnail/2022/10/29/124954_99493783432.jpg?imageMogr2/quality/75/interlace/1/thumbnail/x700/gravity/Center/crop/700x700/format/webp');">
+                                    <div id="block1" class="container c10525">
+                                        <div class="row h-100 align-items-center py-5">
+
+                                            <!-- Content block within the slide -->
+                                            <div class="block1">
+                                                <div class="heading-block border-bottom-0 mb-4">
+
+                                                    <!-- Subtitle -->
+                                                    <h5 data-animate="fadeInUp" data-delay="100" class="text-uppercase ls-4 fw-light mb-2 text-white-50">Congratulations. You found me</h5>
+                                                    <h2 data-animate="fadeInUp" data-delay="200" id="itzagu" class="fw-bold text-transform-none ls-0 c10580">HI <br/>This is SiriusMing<br/></h2>
+                                                </div>
+                                                    <p data-animate="fadeInUp" data-delay="400" id="i8qzof" class="mb-5 fw-normal lead c10609">Hello, you can call me Ming.<br/>I am one among the millions of ordinary people.<br/>This is my little personal world.<br/>Welcome, and come to learn my story.</p>
+                                                    <a data-scrollto="#section-about" data-offset="70" data-animate="fadeInUp" data-delay="600" class="btn rounded bg-white color text-uppercase fw-semibold ls-1 py-3 px-4">KNOW MORE 
+                                                    
+                                                        <!-- Chevron icon for the button -->
+                                                        <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" 
+                                                    xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Slide 2 -->
+                                <div id="i9mibs" class="swiper-slide intro-diagonal dark bg-color c10691" style="background-image: url('https://img2.huashi6.com/images/resource/thumbnail/2023/04/03/15115_8659703622.jpg?imageMogr2/quality/75/interlace/1/thumbnail/700x/gravity/North/crop/700x853/format/webp');">
+                                    <div id="it8lq2" class="container c10699">
+                                        <div class="row h-100 align-items-center py-5">
+                                            <div class="block1">
+
+                                                <div class="heading-block border-bottom-0 mb-4">
+                                                    <!-- Subtitle -->
+                                                    <h5 data-animate="fadeInUp" data-delay="100" class="text-uppercase ls-4 fw-light mb-2 text-white-50">Page introduction</h5>
+                                                    <h2 data-animate="fadeInUp" data-delay="200" id="ibxcit" class="fw-bold text-transform-none ls-0 c10749">This website is my various miscellaneous talk, welcome to your arrival oh</h2>
+                                                </div>
+                                                <p data-animate="fadeInUp" data-delay="400" id="i43vna" class="mb-5 fw-normal lead" style="color: white;">Click the button below to go down and watch, or you can swipe it yourself</p>
+                                                <a data-scrollto="#section-about" data-offset="70" data-animate="fadeInUp" data-delay="600" class="btn rounded bg-white color text-uppercase fw-semibold ls-1 py-3 px-4">Know more 
+                                               
+                                                    <!-- Chevron icon for the button -->
+                                                    <svg class="bi bi-chevron-right" width="32" height="32" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M6.646 3.646a.5.5 0 01.708 0l6 6a.5.5 0 010 .708l-6 6a.5.5 0 01-.708-.708L12.293 10 6.646 4.354a.5.5 0 010-.708z"/></svg></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                <!-- Slider navigation and numbers -->
+                <!-- Chevron icon for the button -->
+                    <div class="slider-arrow-left"><svg class="bi bi-arrow-left-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-7.646 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L6.207 7.5H11a.5.5 0 0 1 0 1H6.207l2.147 2.146z"/>
+                        </svg>
+                    </div>
+                    
+                    <div class="slider-arrow-right"><svg class="bi bi-arrow-right-circle-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-8.354 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L9.793 7.5H5a.5.5 0 0 0 0 1h4.793l-2.147 2.146z"/>
+                        </svg>
+                    </div>
+
+                    <div class="slide-number">
+                        <div class="slide-number-current"></div>
+                        <span>/</span>
+                        <div class="slide-number-total"></div>
+                    </div>
+                </div>
+                </section>
+
+                <!-- Content============================================= -->
+                <section id="content" class="bg-white">
+                    <div id="iny93b" class="content-wrap pt-0 c10974">
+                        <div class="position-relative">
+                            <div class="container">
+                                <div class="row py-0 py-lg-5">
+                                    <div class="col-lg-5 py-5">
+                                        <div id="section-about" class="heading-block border-bottom-0 mb-4">
+                                            <div class="fancy-title title-border mb-3">
+                                                <h5 class="fw-normal color font-body">BRIEF INTRODUCTION</h5>
+                                            </div>
+                                            <h3 id="i6rkhh" class="fw-bold text-transform-none c11051">My little profile</h3>
+                                        </div>
+                                        <!--Three introduction blocks-->
+                                        <p class="mb-5">
+                                            <!--the first one-->
+                                            I come from Shenzhen, Guangdong, a coastal city in China. You can ride along the shoreline, feeling the sea breeze. Sometimes, when the sunset light falls on my face, I can't help but marvel at how, despite its complexity, this world still inspires a sense of beauty.
+                                        </p>
+                                        <div class="intro-box fbox-plain mb-4">
+                                            <div class="fbox-icon"></div>
+                                            <div class="fbox-content">
+                                                <h3 class="fw-normal text-transform-none">At present<span id="present"></span></h3>
+                                                <p class="intro">
+                                                    I am a sophomore majoring in AI. So far, I have learned Python, Java, computer network, principles of operating systems, and other related courses. At the same time, I have also practiced the relevant content of data analysis and big data processing modules.
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="intro-box fbox-plain mb-4">
+                                            <div class="fbox-icon"></div>
+                                            <!--the second one-->
+                                            <div class="fbox-content">
+                                                <h3 class="fw-normal text-transform-none">Non-academic skill</h3>
+                                                <p class="intro">
+                                                    I hope to become a well-rounded student, not just a learning machine.<br/>
+                                                    Music: ABRSM Grade 8, which has given me substantial musical skills.<br/>
+                                                    Dance: Chinese dance Grade 10.<br/>
+                                                    I've also won numerous awards, both big and small, in these areas as well as in sketching and calligraphy. At school, I hold important positions in student organizations.<br/>
+                                                    <span class="c48548">End of bragging.</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="intro-box fbox-plain">
+                                            <div class="fbox-icon"></div>
+                                            <!--the thrid one-->
+                                            <div class="fbox-content">
+                                                <h3 class="fw-normal text-transform-none">List of hobbies</h3>
+                                                <p id="interest">
+                                                    1. Avid Anime and gamer<br/>
+                                                    2. Fascinated by the stars and astronomy<br/>
+                                                    3. Occasionally transform into a philosophical poet<br/><br/>
+                                                    <span class="c57838">My INTEREST page will detail these hobbies and my stories. Looking forward to sharing them with you!</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-7 py-5">
+                                        <img src="https://img2.huashi6.com/images/resource/thumbnail/2024/03/13/61145_50558592746.jpg?imageMogr2/quality/75/interlace/1/thumbnail/700x/gravity/North/crop/700x874/format/webp" 
+                                        class="img-fluid" alt="profile"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--The music introduction part-->                
+                <div id="iaujzk" class="section section-cards mb-0 c11378">
+                    <div id="irycrm" class="c67391">
+                        <span id="i8v8zf" class="c67580">
+                            Here are six songs that I really love <br>and I wanted to share them with you
+                        </span>
+                    </div>
+                    <div class="container">
+                        <div class="row">
+
+                            <!-- Card 1 -->
+                            <div class="block1 col-lg-4">
+                                <div id="iocipv" class="card c11411">
+                                    <div class="card-body">
+
+                                        <!--Song 1-->
+                                        <img src="img/p1.png" class="p1" alt="p1"/>
+                                        <h3 id="song1" class="songname">benefits</h3>
+                                        <div>
+                                            <a href="https://music.163.com/song?id=1855110070&userid=1570763675" class="playsong">Play the sound</a>
+                                        </div>
+                                        <img src="img/Vaundy-benefits-300x300.jpg" class="c69086" alt="img"/>
+                                    </div>
+                                </div>
+
+                                <div id="icarc9" class="card mt-5 c11473">
+                                    <div class="card-body">
+
+                                        <!--Song 2-->
+                                        <img src="img/p1.png" class="p1" alt="p1"/>
+                                        <h3 id="song2" class="songname">Happy end</h3>
+                                        <a href="https://music.163.com/song?id=441116300&userid=1570763675" class="playsong">Play the sound<span></span></a>
+                                    </div>
+                                    <img src="img/back-number-Happy-End-300x300.jpg" class="c72545"/ alt="img">
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div id="iq4ord" class="block1 col-lg-4 c11553">
+                                <div id="i29qqc" class="card c11561">
+                                    <div class="card-body">
+
+                                        <!--Song 3-->
+                                        <img src="img/p1.png" class="p1" alt="p1"/>
+                                        <h3 id="song3" class="songname">Banzai Senshou</h3>                         
+                                        <a href="https://music.163.com/song?id=1329135338&userid=1570763675" class="playsong">Play the sound<span></span></a>
+                                        <img src="img/RADWIMPS-ANTI-ANTI-GENERATION-300x300.jpg" class="c71592"/ alt="img">
+                                    </div>
+                                </div>
+
+                                <div id="it4tkh" class="card mt-5 c11622">
+                                    <div class="card-body">
+
+                                        <!--Song 4-->
+                                        <img src="img/p1.png" class="p1" alt="p1"/>
+                                        <h3 id="song4" class="songname">Mabataki</h3>
+                                        <a href="https://music.163.com/song?id=525063503&userid=1570763675" class="playsong">Play the sound<span></span></a>
+                                    </div>
+                                    <img src="img/back-number-Mabataki-300x300.jpg" class="c72790"/ alt="img">
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div id="imvj04" class="block1 col-lg-4 c11702">
+                                <div id="ibfatd" class="card c11710">
+                                    <div class="card-body">
+
+                                        <!--Song 5-->
+                                        <img src="img/p1.png" class="p1" alt="p1"/>
+                                        <h3 id="song5" class="songname">Old-Fashion</h3>
+                                        <a href="https://music.163.com/song?id=1323975120&userid=1570763675" class="playsong">Play the sound<span></span></a>
+                                        <img src="img/back-number-Old-Fashion-300x300.jpg" class="c72211"/ alt="img">
+                                    </div>
+                                </div>
+
+                                <div id="iw3fqu" class="card mt-5 c11771">
+                                    <div class="card-body">
+
+                                        <!--Song 6-->
+                                        <img src="img/p1.png" class="p1" alt="p1"/>
+                                        <h3 id="song6" class="songname">Dry Flower</h3>
+                                        <a href="https://music.163.com/song?id=1485033549&userid=1570763675" class="playsong">Play the sound<span></span></a>
+                                    </div>
+                                    <img src="img/Yuuri-Dry-Flower-300x300.jpg" class="c73048"/ alt="img">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--The recommend section-->                
+                <div class="section section-price bg-transparent">
+                    <div class="container">
+                        <div class="d-flex justify-content-between align-items-center mb-6">
+                            <div id="irtm9k" class="heading-block border-bottom-0 mb-0 c16637">
+                                <!--Fancy title-->
+                                <div class="fancy-title title-border mb-3">
+                                    <h5 class="fw-normal color font-body text-uppercase ls-1">Recommended snacks</h5>
+                                </div>
+                                <!--Title-->
+                                <h2 id="itely8" class="fw-bold mb-2 text-transform-none c16672">I'm a <span id="chocoholic">chocoholic</span></h2>
+                                <p class="lead mb-0"><span id="ipq6mr" class="c75185">When it comes to chocolate, I highly recommend the ones with fillings. Make sure to choose a shop that offers rich chocolate flavors. Similarly, I find chocolates with nuts incredibly delicious.</span></p>
+                            </div>
+                            <img src="img/LoadingImage_33_jp.png" class="c77842"/ alt="img">
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-4 mb-5">
+                                <!--recommend column-->
+                                <h2 class="fw-normal"><br/><br/>Recommend<br/>Brand</h2>
+                                <p class="text-black-50">My ABOUT page will explain some details about my music preferences and chocolate preferences.<br> 
+                                    Welcome to click on the navigation ABOUT to know more ~<br>
+                                    The official website link below the picture on the right may take a while to load out the page</p>
+                        
+                            </div>
+                            <div class="col-md-4 mb-5">
+                                <div class="card pricing border-0 shadow text-center">
+                                    <div class="card-body rounded pt-5 pb-0">
+                                        <img src="img/p4.jpeg" class="c76898"/ alt="img">
+                                        <h3 id="icdwob">Guylian</h3>
+                                        <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.bMvjwNJ5bltHqZC9W5T91AHaE8?w=296&h=197&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="c75798"/ alt="img">
+                                        <ul class="list-unstyled"></ul>
+                                        <a class="c76472" href="https://guylian.com/">click me to know more</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 mb-4">
+                                <div class="card pricing border-0 shadow text-center">
+                                    <div class="card-body rounded pt-5 pb-0">
+                                        <img src="img/p4.jpeg" class="c76898"/ alt="img">
+                                        <h3 id="iktr1f">Gavarny</h3>
+                                        <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.e__bTggBkkKIPYl7jbasEQHaFE?w=267&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7" class="c76147"/ alt="img">
+                                        <ul class="list-unstyled"></ul>
+                                        <a class="c76472" href="https://gudrungroup.be/">click me to know more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear mb-5"></div>
+                    </div>
+                </div>
+
+                <!--Gallary section-->               
+                <div class="text-center text-title">
+                    <h3>Picture of my interest<br>You can also click the picture to see the picture clearly</h3><br>
+                    <h4>Click the Navigation bar to know more!</h4>
+                </div>
+                
+                <div class="section p-0 m-0">
+
+                    <!--gallery items-->
+                    <div data-lightbox="gallery" class="masonry-thumbs grid-container row row-cols-2 row-cols-sm-3 row-cols-md-4">
+                        <a href="img/1.webp" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/1.webp" alt="Gallery Thumb 1"/>
+                        </a>
+                        <a href="img/2.webp" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/2.webp" alt="Gallery Thumb 2"/>
+                        </a>
+                        <a href="img/3.jpg" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/3.jpg" alt="Gallery Thumb 3"/>
+                        </a>
+                        <a href="img/4.webp" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/4.webp" alt="Gallery Thumb 4"/>
+                        </a>
+                        <a href="img/5.webp" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/5.webp" alt="Gallery Thumb 5"/>
+                        </a>
+                        <a href="img/6.webp" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/6.webp" alt="Gallery Thumb 6"/>
+                        </a>
+                        <a href="img/7.jpg" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/7.jpg" alt="Gallery Thumb 7"/>
+                        </a>
+                        <a href="img/8.png" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/8.png" alt="Gallery Thumb 8"/>
+                        </a>
+                        <a href="img/9.png" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/9.png" alt="Gallery Thumb 9"/>
+                        </a>
+                        <a href="img/10.jpg" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/10.jpg" alt="Gallery Thumb 10"/>
+                        </a>
+                        <a href="img/11.png" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/11.png" alt="Gallery Thumb 11"/>
+                        </a>
+                        <a href="img/12.webp" data-lightbox="gallery-item" class="grid-item">
+                            <img src="img/12.webp" alt="Gallery Thumb 12"/>
+                        </a>
+                    </div>
+                </div>
+
+                <!--Quiz introduction section-->
+                <div class="section mb-0 bg-transparent">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="block1 mb-5 mb-md-0">
+
+                                <!--video-->
+                                <iframe title="introductionvideo" allowfullscreen="allowfullscreen" class="c79241" src="https://player.bilibili.com/player.html?bvid=BV1nM411p76d&page=1" >
+                                </iframe>
+                            </div>
+                            <div class="block1">
+                                <div class="heading-block border-bottom-0 mb-4">
+                                    <div class="fancy-title title-border mb-3">
+
+                                        <!--the intro-->
+                                        <h5 class="fw-normal color font-body text-uppercase ls-1">Quiz content introduction</h5>
+                                    </div>
+                                    <h2 id="ib86d7" class="fw-bold text-transform-none c18206">About the game: Blue Archive</h2>
+                                </div>
+                                <p id="iugz79" class="mb-5 lead mb-0 c18234">
+                                    <span>"The Azure Archives" is a 2D role-playing game developed by MX Studio under South Korea's NEXON Games and 
+                                        published by Shanghai Ustar Network. Set in the fictional mega-federal city of 'Kiwotos,' 
+                                        this game primarily revolves around its characters and storyline 
+                                        (including both main storyline and gameplay content). This quiz is divided into four colleges, 
+                                        welcoming you to challenge and explore the game.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                </section>
+                <!-- #content end -->
+
+                <!-- Footer============================================= -->
+                <footer id="footer" class="bg-color dark">
+                <div class="container">
+                <!-- Footer Widgets============================================= -->
+                </div>
+
+                <!-- Copyrights============================================= -->
+                <div id="copyrights" class="text-center dark">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p class="mb-2 text-white-50">
+                                    © SiriusMing's personal website
+                                </p>
+                                <div class="copyright-links text-white-50">
+                                    Thank you for coming<br/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- #copyrights end -->
+                </footer>
+                <!-- #footer end -->
+                </div>
+                <!-- #wrapper end -->
+
+                <!-- Go To Top============================================= -->
+                <div id="gotoTop" class="uil uil-angle-up">
+                    <svg class="bi bi-arrow-up-square-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" 
+                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2zm3.354 8.354a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 6.207V11a.5.5 0 0 1-1 0V6.207L5.354 8.354z"/>
+                    </svg>
+                </div>
+
+                <!-- JavaScripts
+                    Here is the js to implement the effect of delaying the text appearing in the head part -->
+                    
+                <script src="js/plugins.min.js"></script> <!-- Importing all the required plugins -->
+                <script src="js/functions.bundle.js"></script> <!-- Importing the bundled functions JavaScript file -->
+
+
+
+            </body>
+</html>

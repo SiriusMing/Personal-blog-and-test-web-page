@@ -1,0 +1,600 @@
+/**This is the css style of the about page**/
+
+body {
+    background: url('https://s1.aigei.com/prevfiles/3deafd16f780406da7f9fbe017f7b0cc.gif?e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:ExSDP8KUjlOsmbTbdIvKAbqm3DQ=') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0; /* remove default outside bolders */
+    padding: 0; /* remove default inside bolders */
+    font-family: Arial, sans-serif; /* set global font */
+	
+}
+
+/**** Slider *****/
+
+.banner-text h3 {
+	background: #fe9aa6;
+	color: #FFF;
+	text-align: center;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	padding: 15px;
+	margin: 0 auto;
+	width: 60%;
+	
+}
+
+.banner-text p{
+	width: 19%;
+	background: #fe9aa6;
+	color: #FFF;
+	margin: 0 auto;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+
+.banner{
+    background: url(https://img2.huashi6.com/images/resource/thumbnail/2024/03/08/23438_58826192083.jpg?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E) no-repeat center center;
+    padding: 9.5% 0 1%;
+    background-size: cover; /**keep the aspect ratio**/
+}
+
+/*Decorate the head*/
+.wmuSlider {
+	/* Sets the positioning method of .wmuSlider to relative */
+	position: relative;
+	overflow: hidden;
+	padding:10px 0 0px;
+}
+
+.wmuSlider .wmuSliderWrapper article {
+	position: relative;
+	text-align: center;
+}
+
+/*  GRID OF THREE   ============================================================================= */
+/*display the section*/
+
+.content-top{
+	padding-bottom: 20px;
+}
+/*to set the style of the text part*/
+.col_1_of_3{
+	display: block;
+	float: left;
+	margin: 1% 0 1% 0.2%;
+}
+
+.col_1_of_3:first-child { margin-left: 0; }
+.span_1_of_3 {
+	width:33.2%;
+}
+.span_1_of_first {
+	width: 33.2%;
+}
+.span_1_of_3 img{
+	display:block;
+}
+
+.grid1{
+	background:url(https://img2.huashi6.com/images/resource/thumbnail/2023/06/05/01841_52128560821.jpg?imageMogr2/quality/100/interlace/1/thumbnail/2000x%3E);
+	margin-bottom:-11px;
+	background-size: contain; /**to fit the container**/
+	margin-top: 110px; 
+}
+.grid1 h4{
+	color:#c2186a;
+	padding:45% 4% 4% 4%;
+	font-size:1.5em;
+}
+.grid1-desc {
+    margin-top: 70px; 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    background-color: #e9cfdc; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    width: 90%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+
+.grid1-desc h3 {
+    color: #7a1043;
+    margin-bottom: 0.5em;
+    font-style: italic; /* let the font to be italic */
+    font-weight: bold; /* bold the text */
+}
+
+
+
+.grid1-desc p{
+	color:#555;
+	font-size:0.85em;
+	line-height: 1.5em;
+	font-weight: normal;
+	margin-top: 0px;
+}
+
+
+
+.content-bottom{
+	background:#f8f8f8;
+	box-shadow: inset 0px 4px 6px 0px #e6e6e6;
+	padding-bottom: 20px;
+}
+
+
+
+.content-box{
+	padding-bottom:30px;
+}
+
+/*  GRID OF THREE   ============================================================================= */
+.band{
+	margin-bottom:20px;
+}
+.col_1_of_bottom{
+	display: block;
+	float: left;
+	margin: 1% 0 1% 4%;
+}
+
+/* the style of the photo */
+
+.bottom-img {
+    box-shadow: 0 0 10px #AAA;
+    border: 10px solid #FFF;
+    width: 100%; /* set container width */
+    height: 250px; /* set container height*/
+    overflow: hidden; 
+    display: flex; /* let it mediate*/
+    justify-content: center; /* be center */
+    align-items: center; 
+	
+}
+
+.bottom-img img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; /* fit with its ratio */
+    display: block; /* remove the gap of the bottom */
+}
+
+/* the style of the decription of images */
+
+.span_1_of_first1 h5,
+.span_1_of_bottom h5 {
+	color:#c2186a;
+    padding: 5px 0 5px;
+    margin-bottom: 0.5em;
+}
+
+
+.span_1_of_first1 h3,
+.span_1_of_bottom h3 {
+	color:#c2184b;
+    padding: 5px 0 5px;
+    margin-bottom: 0.5em;
+}
+
+
+/* the style of the first text container */
+.col_1_of_bottom.span_1_of_first1 {
+    width: 30%; /* adjust the width to let the text can be display in only one line*/
+    float: left;
+}
+
+/* style of img container */
+.col_1_of_bottom.span_1_of_bottom {
+    width: 23%; /* adjust the width to let the img can be display in only one line*/
+    float: right;
+    margin-right: 50px;
+}
+
+
+/*the style of the link of the song*/
+a {
+    color: #999;
+    font-size: 0.82em;
+    text-transform: uppercase;
+    font-style: italic;
+}
+a:hover {
+    color: #fc5f5f;
+}
+
+/***** Media Quries *****/
+@media only screen and (max-width: 1024px) {
+	.wrap{
+		width:95%;
+	}	
+}
+/*  GO FULL WIDTH AT LESS THAN 640 PIXELS */
+@media only screen and (max-width: 640px) and (min-width: 480px) {
+	.wrap{
+		width:95%;
+	}
+	.col_1_of_3{ 
+		margin: 1% 0 1% 0%;
+	}
+    .col_1_of_bottom{ 
+		margin: 1% 0 1% 0%;
+	}
+	.span_1_of_bottom {
+		width:94%;
+	}
+	.span_1_of_3 {
+		width:94%;
+	}
+}
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+@media only screen and (max-width: 480px) {
+     
+     .wrap{
+		width:95%;
+	}		
+	.col_1_of_3{ 
+		margin: 1% 0 1% 0%;
+	}
+    .col_1_of_5{ 
+		margin: 1% 0 1% 0%;
+	}
+    .col_1_of_bottom{ 
+		margin: 1% 0 1% 0%;
+	}
+	.span_1_of_bottom {
+		width:92%;
+	}
+	.span_1_of_3 {
+		width:92%;
+	}
+    .span_2_of_2 {
+		width: 100%; 
+	}
+}
+
+/*--responsive design--*/
+@media (max-width:1366px){
+	.wrap{
+		width:90%;
+	}
+
+}
+@media (max-width:1280px){
+	.wrap{
+		width:90%;
+	}
+	.banner-text h3 {
+		width: 63%;
+	}
+
+
+}
+@media (max-width:1024px){
+	.wrap{
+		width:90%;
+	}
+	.banner-text h3 {
+		width: 63%;
+		font-size: 1.2em;
+	}
+
+	.grid1 h4 {
+		padding:41% 4% 4% 4%;
+	}
+	.grid1-desc h3 a {
+		font-size: 1em;
+	}
+	.span_1_of_first1 h5 a {
+		font-size: 1em;
+	}
+	.span_1_of_bottom h5 a {
+		font-size: 1em;
+	}
+	.wmuSliderPagination {
+		left: 46%;
+	}
+
+	.grid1-desc p {
+		font-size: 0.8125em;
+	}
+	.span_1_of_first1 p {
+		font-size: 0.8125em;
+	}
+	.text p {
+		font-size: 0.8125em;
+	}
+
+
+
+}
+@media (max-width:800px){
+	.wrap{
+		width:90%;
+	}
+	.banner-text h3 {
+		width: 77%;
+		font-size: 1.1em;
+	}
+
+	.grid1 h4 {
+		padding:36% 4% 4% 4%;
+	}
+	.grid1-desc h3 a {
+		font-size:0.85em;
+	}
+	.span_1_of_first1 h5 a {
+		font-size: 1em;
+	}
+	.span_1_of_bottom h5 a {
+		font-size: 1em;
+	}
+	.wmuSliderPagination {
+		left: 46%;
+	}
+
+	.grid1-desc p {
+		font-size: 0.8125em;
+	}
+	.span_1_of_first1 p {
+		font-size: 0.8125em;
+	}
+	.text p {
+		font-size: 0.8125em;
+	}
+
+	.cssmenu > ul > li > a {
+		padding:10px 10px;
+	}
+	.banner-text p {
+		width: 26%;
+	}
+	.text h5 {
+		font-size: 1em;
+	}
+
+
+}
+@media (max-width:768px){
+	.wrap{
+		width:90%;
+	}
+	.banner-text h3 {
+		width:79%;
+		font-size: 1.1em;
+	}
+
+	.grid1 h4 {
+		padding:36% 4% 4% 4%;
+	}
+	.grid1-desc h3 a {
+		font-size:0.85em;
+	}
+	.span_1_of_first1 h5 a {
+		font-size: 1em;
+	}
+	.span_1_of_bottom h5 a {
+		font-size: 1em;
+	}
+	.wmuSliderPagination {
+		left: 46%;
+	}
+
+	.grid1-desc p {
+		font-size: 0.8125em;
+	}
+	.span_1_of_first1 p {
+		font-size: 0.8125em;
+	}
+	.text p {
+		font-size: 0.8125em;
+	}
+
+
+	.cssmenu > ul > li > a {
+		padding:10px 10px;
+	}
+	.banner-text p {
+		width: 26%;
+	}
+	.text h5 {
+		font-size: 1em;
+	}
+
+}
+@media (max-width:640px){
+	.wrap{
+		width:90%;
+	}
+	.banner-text h3 {
+		width: 85%;
+		font-size: 1em;
+	}
+
+	.grid1 h4 {
+		padding:36% 4% 4% 4%;
+	}
+	.grid1-desc h3 a {
+		font-size:0.85em;
+	}
+	.span_1_of_first1 h5 a {
+		font-size: 1em;
+	}
+	.span_1_of_bottom h5 a {
+		font-size: 1em;
+	}
+	.wmuSliderPagination {
+		left: 46%;
+	}
+
+	.grid1-desc p {
+		font-size: 0.8125em;
+	}
+	.span_1_of_first1 p {
+		font-size: 0.8125em;
+	}
+	.text p {
+		font-size: 0.8125em;
+	}
+
+	.cssmenu > ul > li > a {
+		padding:10px 10px;
+	}
+	.banner-text p {
+		width: 26%;
+		font-size: 0.85em;
+	}
+	.text h5 {
+		font-size: 1em;
+	}
+	.span_1_of_first {
+		width: 100%;
+	}
+	.span_1_of_first1 {
+		width: 100%;
+	}
+	.text {
+	  padding: 10px;
+	}
+
+
+}
+@media (max-width:480px){
+	.wrap{
+		width:90%;
+	}
+	.banner-text h3 {
+		width: 85%;
+		font-size: 1em;
+	}
+
+	.grid1 h4 {
+		padding:36% 4% 4% 4%;
+	}
+	.grid1-desc h3 a {
+		font-size:0.85em;
+	}
+	.span_1_of_first1 h5 a {
+		font-size: 1em;
+	}
+	.span_1_of_bottom h5 a {
+		font-size: 1em;
+	}
+	.wmuSliderPagination {
+		left:41%;
+	}
+
+	.grid1-desc p {
+		font-size: 0.8125em;
+	}
+	.span_1_of_first1 p {
+		font-size: 0.8125em;
+	}
+	.text p {
+		font-size: 0.8125em;
+	}
+
+
+	.cssmenu > ul > li > a {
+		padding:10px 10px;
+	}
+	.banner-text p {
+		width: 35%;
+		font-size: 0.8125em;
+	}
+	.text h5 {
+		font-size: 1em;
+	}
+	.span_1_of_first {
+		width: 100%;
+	}
+	.span_1_of_first1 {
+		width: 100%;
+	}
+	.text {
+	  padding: 10px;
+	}
+
+	.cssmenu {
+		float: none;
+		margin-top: 0px;
+	}
+	.header {
+		padding:10px 0;
+		text-align: center;
+	}
+
+}
+@media (max-width:320px){
+	.wrap{
+		width:90%;
+	}
+	.banner-text h3 {
+		width: 85%;
+		font-size:0.89em;
+	}
+
+	.grid1 h4 {
+		padding:36% 4% 4% 4%;
+	}
+	.grid1-desc h3 a {
+		font-size:0.85em;
+	}
+	.span_1_of_first1 h5 a {
+		font-size: 1em;
+	}
+	.span_1_of_bottom h5 a {
+		font-size: 1em;
+	}
+	.wmuSliderPagination {
+		left:39%;
+	}
+
+	.grid1-desc p {
+		font-size: 0.8125em;
+	}
+	.span_1_of_first1 p {
+		font-size: 0.8125em;
+	}
+	.text p {
+		font-size: 0.8125em;
+	}
+
+	.cssmenu > ul > li > a {
+		padding: 5px 2px;
+		font-size: 11px;
+	}
+	.banner-text p {
+		width:50%;
+		font-size: 0.8125em;
+	}
+	.text h5 {
+		font-size: 1em;
+	}
+	.span_1_of_first {
+		width: 100%;
+	}
+	.span_1_of_first1 {
+		width: 100%;
+	}
+	.text {
+	  padding: 10px;
+	}
+
+	.cssmenu {
+		float: none;
+		margin-top: 0px;
+	}
+	.header {
+		padding:10px 0;
+		text-align: center;
+	}
+
+
+}
+
+
+
+

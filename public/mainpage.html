@@ -1,0 +1,123 @@
+<!--This is the page to have the quiz-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz of BA</title>
+  <link rel="stylesheet" href="styles1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--The main section-->
+  <main>
+    <div class="header">
+      <!--The introduction page of the quiz-->
+      <h2 class="title1">How well do you know<br>about the Blue Archive?</h2>
+      <h4 class="subtitle">Choose your college! <br> and start your small quiz!</h4>
+      <h4 class="subtitle">Top right view: Number of completed answers/total</h4>
+      <h4 class="alink"><a href="index.html">Click me to return home</a></h4>
+    </div>
+    <div class="main">
+      <!--The final page of the quiz-->
+      <div class="final">
+        <h3>You answered all of the questions!</h3>
+        <p>Score and Total time: </p>
+        <p class="score" id="score"></p>
+        <p class="totaltime" id="totaltime"></p>
+        <h4>Want to try it again?</h4>
+        <button id="again" class="submit">Again</button>
+        <button id="userrank" class="submit">Rank</button>
+      </div>
+
+      <!--The leaderboard page of the quiz-->
+      <div id="leaderboard-page" class="hidden">
+        <h2>Leaderboard</h2>
+        <table id="leaderboard-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Correct Rate</th>
+              <th>Average Time (s)</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <button id="back" class="submit">Back</button>
+      </div>
+
+      <!--The quiz page-->
+      <div class="quiz">
+        <div class="count">
+          <p class="current">0</p>
+          <p style="margin-left:40px"> / </p>
+          <p class="total"></p>
+        </div>
+        <div id="timer"></div>
+        <!--The Questions and options-->
+        <h3 id="question">1.</h3>
+        <label id="a1" class="container">
+          <input type="radio" id="radio1" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label  id="a2" class="container">
+          <input type="radio" id="radio2" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label  id="a3" class="container">
+          <input type="radio" id="radio3" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <label  id="a4" class="container">
+          <input type="radio" id="radio4" checked="checked" name="radio">
+          <span class="checkmark"></span>
+        </label>
+        <!--The button-->
+        <button id="next" class="submit">Submit</button>
+        
+
+        <div id="result"></div>
+
+      </div>
+      
+      <!--The setting quiz page-->
+      <div class="settings">
+        <h3 style="text-align: center;">Set up your Quiz!</h3>
+        <label for="college">College</label>
+        <select name="college" id="college">
+          <!--select the college -->
+          <option value="a">Abydos</option>
+          <option value="b">Gehenna</option>
+          <option value="c">Trinity</option>
+          <option value="d">Millennium Science School</option>
+        </select>
+
+        <div class="mt30">
+          <!--Select the number of questions-->
+          <label for="questions">Number of questions</label>
+          <input name="questions" id="questions" type="text" pattern="[0-9]*" />
+          <span id="error-message" style="color: red; display: none;">
+            ERROR: Please enter a number between 10 and
+            15</span>
+        </div>
+
+        <button id="start" class="submit">Start now!</button>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  
+  <script>
+    var socket = io.connect('ws://localhost:8080')
+    //Listen for disconnection events from the server
+    socket.on('disconnect', function () {
+      console.log('Disconnect');
+    });
+  </script>
+  <script type="module" src="index.js"></script>
+</body>
+
+</html>

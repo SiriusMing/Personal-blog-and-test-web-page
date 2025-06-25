@@ -1,0 +1,501 @@
+/*This is the css file of the mainpage.html*/
+
+/*set the root theme*/
+:root {
+  --primary-color: #5D737E;
+  --tertiary-color: #fbf0f3;
+  --quaternary-color: #909893;
+  --hover-color: #716560;
+  --shadow-color:rgba(127, 57, 92, 0.4);
+  --font-style: 'Questrial';
+}
+
+/*set the body layout*/
+body {
+  font-family: var(--font-style), 'Ranchers', cursive;
+  background-image: url('https://cdnimg.gamekee.com/wiki2.0/images/829/43637/2022/5/9/212207.gif');
+  background-size: cover; 
+  background-repeat: repeat; 
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.header {
+  padding: 15px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.settings {
+
+  z-index: 1;
+}
+
+.final {
+  visibility: hidden;
+  z-index: 2;
+}
+
+.final p {
+  font-size: 30px;
+  text-align: center;
+}
+
+.final h4 {
+  font-size: 33px;
+  text-align: center;
+}
+
+.quiz  {
+  visibility: hidden;
+  z-index: 0;
+}
+
+/*The style of the question button*/
+#questions {
+  font-size: 20px;
+  font-family: var(--font-style), 'Ranchers', cursive;
+  font-weight: 600;
+  line-height: 1.3;
+  color: white;
+  background-color: var(--primary-color);
+  appearance: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 30px;
+  outline: none;
+  text-align: center;
+  width: 120px;
+}
+
+.settings select {
+  font-size: 20px;
+  font-family: var(--font-style), 'Ranchers', cursive;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  color: white;
+  background-color: var(--primary-color);
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 20px;
+  outline: none;
+  text-align: center;
+}
+
+.settings select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  padding-right: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #5D737E;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0z"/><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  height: 45px;
+  line-height: 30px;
+  width: 300px;
+}
+
+.settings select:hover {
+  border-color: var(--hover-color);
+}
+
+.settings select:focus {
+  border-color: var(--hover-color);
+}
+
+.settings select option {
+
+  font-family: var(--font-style), 'Ranchers', sans-serif;
+}
+
+.settings label {
+  font-size: 25px;
+  margin-right: 16px;
+}
+
+/*layout of quiz,setting,final*/
+.quiz, .settings, .final {
+  position: absolute;
+  padding: 0px 35px 35px 35px;
+  max-width: 560px;
+  background-color: var(--tertiary-color);
+  border-radius: 7px;
+  -webkit-box-shadow: 10px 10px 3px -4px var(--shadow-color);
+  -moz-box-shadow: 10px 10px 3px -4px var(--shadow-color);
+  box-shadow: 10px 10px 5px -4px var(--shadow-color);
+}
+
+h3 {
+  display: block;
+  width: 550px;
+  font-size: 35px;
+  font-weight: 350;
+  word-wrap: break-word;
+}
+
+/*The layout of the submit button*/
+.submit {
+  width: 100%;
+  color: white;
+  background-color: var(--primary-color);
+  font-family: var(--font-style), 'Ranchers', cursive;
+  outline: none;
+  border: none;
+  height: 50px;
+
+  font-size: 1.8rem;
+  margin-top: 20px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.submit:hover {
+  background-color: var(--hover-color);
+  cursor: pointer;
+  color: #ffc778;
+}
+
+/* The container */
+.count {
+  display: block;
+  left: 75%;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 100px;
+  cursor: pointer;
+}
+
+.count p {
+  position: absolute;
+  font-size: 35px;
+  
+}
+
+.total {
+  margin-left: 50px;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 25px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#result button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  font-family: var(--font-style), 'Ranchers', cursive;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result button:hover {
+  background-color: var(--hover-color);
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 30%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ffc778;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: var(--quaternary-color);
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/*set the style of h2*/
+h2 {
+  font-size: 3.5rem;
+  text-align: center;
+  color: transparent; 
+  color: rgb(255, 248, 248); 
+  -webkit-text-stroke: 1px #4f3737; 
+  text-shadow: rgba(255,255,255,0.5) 0 5px 6px, rgba(255,255,255,0.2) 1px 3px 3px; 
+  -clip: text;
+  position: relative;
+  padding-bottom: 20px;
+  transition: transform 0.5s, color 0.5s;
+}
+
+.title1 {
+  position: relative;
+  padding: 0 65px;
+  text-align: center;
+}
+
+
+h2:hover {
+  transform: scale(1.1);
+  color: #f19787; 
+}
+
+
+h4 {
+  text-align: center;
+  font-family: 'Questrial', sans-serif; 
+
+}
+
+/* set the link style */
+h4 a {
+  color: #bf471f; 
+
+  text-decoration: none; 
+  font-weight: bold;
+  padding: 5px; 
+  border-radius: 3px;
+  transition: background-color 0.3s, color 0.3s; 
+  text-align: center;
+  background-color: #f19787;
+  display: inline; 
+  padding: 2px 4px; 
+  border-radius: 3px; 
+}
+
+
+/* Set the hover effect of the link */
+h4 a:hover {
+
+  color: #f9dae0; 
+  
+}
+
+/* Position the timer in the top-left corner of the .quiz container */
+#timer {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.hidden {
+  display: none;
+}
+
+/*The style of the leaderboard-page*/
+#leaderboard-page {
+  /* display: none; */
+  text-align: center;
+}
+
+#leaderboard-table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+#leaderboard-table th, #leaderboard-table td {
+  border: 1px solid var(--primary-color);
+  padding: 8px;
+  text-align: center;
+}
+
+#leaderboard-table th {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+#leaderboard-table td {
+  background-color: var(--tertiary-color);
+}
+
+/* responsive layout for small screens */
+@media (max-width: 768px) {
+
+  body {
+    width: 100%;
+    background-size: cover; /* This will ensure the image covers the entire container */
+    background-position: center; /* This will center the image */
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: block; /* Ensure the body can stack elements vertically */
+    padding: 20px;
+  }
+
+  .header {
+    padding: 10px;
+    margin-bottom: -100px;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+    margin-top: -100px;
+  }
+
+  .settings, .quiz, .final {
+    margin-top: -120px;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    position: relative;
+
+  }
+
+  .settings label {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .settings select, #questions, .submit {
+    font-size: 16px;
+    padding: 8px;
+    margin-left: 40px;
+  }
+
+  .submit {
+    width: 80%;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    padding: 10px;
+  }
+
+  .final p, .final h4 {
+    font-size: 25px;
+    margin: 10px 0;
+  }
+
+  h3 {
+    width: 100%;
+    font-size: 25px;
+    word-wrap: break-word;
+  }
+
+  .count, .container {
+    font-size: 20px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+
+  .count p{
+    font-size: 15px !important;
+  }
+
+  .checkmark {
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+  }
+
+  #timer {
+    font-size: 16px;
+    top: 5px;
+    left: 5px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+  }
+
+  .title1 {
+    padding: 0 20px;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h4 a {
+    font-size: 1.2rem;
+    padding: 5px 10px;
+  }
+
+  #leaderboard-page {
+    padding: 10px;
+  }
+
+  #leaderboard-page h2{
+    margin-top: 70px;
+    font-size: 30px;
+  }
+
+  #leaderboard-table {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  #leaderboard-table th, #leaderboard-table td {
+    padding: 5px;
+  }
+
+  #leaderboard-table th {
+    font-size: 16px;
+  }
+
+  #leaderboard-table td {
+    font-size: 14px;
+  }
+
+
+}
+
+
+
+

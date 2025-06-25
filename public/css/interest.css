@@ -1,0 +1,451 @@
+/**The css style of the interest page**/
+
+/**style of main body, paragraphs, img, and titles**/
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #413f3b;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.5em; 
+    background-image: url(https://s1.aigei.com/prevfiles/d6baea05784549c6b583754db22ace0b.gif?e=1735488000&token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:8oROLSItgSzRR3oCURSLbi57htw=);
+    background-color: #c6c1b5;
+	background-repeat: repeat-x;
+    height: 100%; 
+}
+
+
+p { margin: 0px; padding: 0 0 10px 0; }
+img { border: none; }
+
+h1 { font-size: 40px; font-weight: bold; margin: 0 0 30px 0; padding: 5px 0; color: #5d615e; }
+h2 { font-size: 28px; font-weight: normal; line-height: 28px; margin: 0 0 30px 0; padding: 0; color: #5d615e; }
+h3 { font-size: 21px; margin: 0 0 20px 0; padding: 0; padding: 0; color: #726e60; }
+h4 { font-size: 18px; margin: 0 0 20px 0; padding: 0; }
+h5 { font-size: 16px; margin: 0 0 10px 0; padding: 0; }
+h6 { font-size: 14px; margin: 0 0 5px 0; padding: 0;}
+
+.cleaner { clear: both; width: 100%; height: 0px; font-size: 0px;  }
+.cleaner_h10 { clear: both; width:100%; height: 10px; }
+.cleaner_h20 { clear: both; width:100%; height: 20px; }
+.cleaner_h30 { clear: both; width:100%; height: 30px; }
+.cleaner_h40 { clear: both; width:100%; height: 40px; }
+.cleaner_h50 { clear: both; width:100%; height: 50px; }
+.cleaner_h60 { clear: both; width:100%; height: 60px; }
+
+.margin_r35 { margin-right: 35px; }
+
+
+/** sets the floating direction of the element **/
+.float_l {
+	float: left;
+}
+
+.float_r {
+	float: right;
+}
+
+
+/* Set the image style */
+.image_wrapper img {
+	width: 270px; 
+	height: auto; 
+	display: block; 
+	margin: 0 auto; 
+	margin-bottom: 10px;
+  }
+
+/* Set the image to float to the left and set the right margin */
+.fl_img {
+	float: left;
+	margin: 3px 30px 15px 0;
+}
+
+/* Set the image to float to the right and set the left margin */
+.fr_img {
+	float: right;
+	margin: 3px 0 15px 15px;
+}
+
+/* Sets the style of the block reference */
+blockquote { 
+	font-style: italic; 
+	margin-left: 10px;
+}
+
+/* Sets the style of the reference element */
+cite { 
+	font-weight: bold; 
+}
+
+/* Sets the style of the nested span elements in the reference */
+cite span { 
+	color: #bda26d; 
+}
+
+/* Sets the style of the emphasis element */
+em { 
+	color: #247805; 
+}
+
+
+/**The style of the list**/
+.list {
+	background-color: #8a8580;
+	color: #fff;
+	margin: 20px 0;
+	padding: 10px; 
+	list-style: none;
+	border-radius: 10px; 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  }
+
+.list li {
+	margin:0 0 20px;
+	padding:0 0 0 25px;
+	line-height: 1em;
+	padding: 10px; 
+	border-bottom: 1px solid #e6e6e6; 
+}
+
+
+/*Style of head section*/
+#wrapper {
+	width: 970px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+
+#header {
+	width: 970px;
+	height: 300px;
+}
+
+/*Style of menu section*/
+#menu {
+	width: 910px;
+	height: 39px;
+	padding: 10px 30px;
+	background-color: #8fa598;
+	background: linear-gradient(to bottom, #a8debd 0%, #718b7f 100%); /* Adds gradient effect */
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), inset 0 1px 1px rgba(255, 255, 255, 0.3); 
+	border: 1px solid #78a792; 
+	display: flex;
+	color: #fff; 
+	font-family: 'Arial', sans-serif; 
+	font-weight: bold; 
+  }
+  
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#menu ul li {
+	padding: 0px;
+	margin: 0px;
+	display: inline;
+}
+
+#menu ul li a {
+	float: left;
+	display: block;
+	width: 102px;
+	height: 24px;
+	padding: 3px 0 0 0;
+	margin: 0 5px 0 0 ;
+	font-size: 13px;
+	text-align: center;
+	text-decoration: none;
+	color: #fbe9d9;	
+	font-weight: bold;
+	outline: none;
+	border: none;
+	background-color: #80a88f; 
+}
+
+#menu ul li a:hover, #menu ul li .current {
+	background-color: #597464;
+}
+
+#header  #site_title {
+	clear: both;
+	float: left;
+	width: 260px;
+	padding: 120px 0 0 30px;
+}
+
+#header  #site_title h1 {
+	margin: 0;
+	padding: 0;
+}
+
+#header  #site_title h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 38px;
+	color: #000;
+	font-weight: normal;
+	text-decoration: none;
+}
+
+#header  #site_title h1 strong {
+	color: #ffd333;
+}
+
+#header  #site_title span {
+	display: block;
+	font-size: 14px;
+	color: #2e2c27;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-left: 5px;
+	margin-top: 5px;
+	font-family: Helevetica,Arial,sans-serif;
+}
+
+#main {
+    display: flex;
+    padding: 30px;
+    border-bottom: 1px solid #7a766d;
+    background: #fbe8d7 top repeat-x;
+    overflow: hidden; 
+}
+  
+/*Style of content section*/
+#content {
+	float: left;
+	width: 560px;
+}
+
+#sidebar {
+	float: right;
+	width: 280px;
+	margin-left: 50px;
+}
+
+#sidebar h2 {
+	padding: 10px;
+	border: 2px solid #7a766d; 
+	background-color: #f7c9a2; 
+	color: #5d615e; 
+	font-family: 'Arial', sans-serif; 
+	font-weight: bold; 
+	text-align: center; 
+}
+
+/*The style of columns*/
+.two_column_ws {
+	width: 250px;
+}
+
+.two_column {
+	width: 250px;
+}
+
+.three_column {
+	float: left;
+	width: 250px;
+	padding-right: 30px;
+}
+
+.three_column {
+	float: left;
+	width: 250px;
+	padding-right: 30px;
+  }
+  
+  .three_column h2 {
+	padding: 10px;
+	border: 2px solid #7a766d;  /* Sets the border of the title */
+	background-color: #f7c9a2;  
+	color: #5d615e;  
+	font-family: 'Arial', sans-serif;  /* Sets the font */
+	font-weight: bold;  /* Set the font size to bold */
+	text-align: center; 
+  }
+
+/*The style of box*/
+.box {
+	margin-bottom: 20px;
+}
+
+.box img {
+    width: 200px;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+/*The style of Astronomy section*/
+.astronomy_section {
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+
+}
+
+.astronomy_section h2{
+
+	padding: 10px;
+	border: 2px solid #7a766d; 
+	background-color: #f7c9a2; 
+	color: #5d615e;
+	font-family: 'Arial', sans-serif; 
+	font-weight: bold; 
+	text-align: center; 
+  
+}
+
+.astronomy_section .as_left {
+	float: left;
+	width: 200px;
+	
+}
+
+.astronomy_section .as_left img {
+	width: 200px;
+	height: 200px;
+	margin-top: 50px;
+	border: 5px solid #987c63;
+}
+
+.astronomy_section .as_right {
+	float: right;
+	width: 330px;
+}
+
+.source {
+    font-family: "Arial", sans-serif; 
+    color: #a3751a; 
+	text-align: center;
+
+}
+
+/*The style of the poet box*/
+.poet_box{
+	width: 500px;
+}
+
+.poet_box p {
+    background-color: burlywood;
+	margin-top: 20px;
+    text-align: center; 
+}
+.poet_info{
+	text-align: center;
+}
+
+.poet_box h2 {
+    text-align: center; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #ad731c; 
+	padding: 10px;
+	border: 2px solid #7a766d; 
+	background-color: #f7c9a2; 
+	font-family: 'Arial', sans-serif; 
+
+}
+
+/*The style of the side pattern*/
+.sidepattern{
+	margin-left: 50px;
+	width: 1000px;
+}
+
+.sidepattern h2 {
+	padding: 10px;
+	border: 2px solid #7a766d; 
+	background-color: #f7c9a2; 
+	color: #5d615e; 
+	font-family: 'Arial', sans-serif; 
+	font-weight: bold; 
+	text-align: center; 
+}
+  
+/*The style of the footer*/
+#footer {
+	width: 910px;
+	padding: 20px 30px;
+	text-align: center;
+	background: #486d59c3;
+}
+
+/* Make responsive adjustments to the overall layout */
+@media screen and (max-width: 768px) {
+	body {
+	  font-size: 10px;
+	  overflow-x: hidden; 
+	  
+	}
+  
+	#wrapper {
+	  width: 100%;
+	  padding: 0 20px; 
+	}
+
+  
+	#header, #menu, #main, #content, .two_column, .three_column, .sidepattern, .poet_box, #footer {
+	  width: 100%; 
+	  margin: 5px; 
+	  padding: 0; 
+	}
+
+	#sidebar {
+
+		width: 260px;
+		margin: 5px;
+		padding: 0;
+		margin-right: 30px;
+	}
+
+  
+	.float_l, .float_r, .fl_img, .fr_img {
+	  float: none; 
+	  margin: 0; 
+	}
+  
+	.two_column_ws {
+	  width: 100%; 
+	}
+
+	.astronomy_section .as_right {
+		margin-left: 20px;
+		width: 320px;
+	}
+  
+	.image_wrapper img, .box img {
+	  width: 100%; 
+	  margin: 0 auto; 
+	}
+  
+	.list, .astronomy_section, .source {
+	  width: 90%; 
+	  margin: 0 auto; 
+	}
+  
+	.poet_box {
+	  width: 90%; 
+	  margin: 0 auto; 
+	}
+
+	.astronomy_section .as_left img {
+		display: inline-block;
+		width: 200px;
+		height: 200px;
+		margin-top: 20px;
+		border: 5px solid #987c63;
+	}
+
+	.astronomy_section .as_left {
+		margin-left: 60px;
+		width: 300px;
+		
+	}
+  }
+  
+
+

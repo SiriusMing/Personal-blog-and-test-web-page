@@ -1,0 +1,95 @@
+
+{
+  "questions": [
+    {
+      "question": "Who is the current leader of Holy Trinity Academy's Tea Party?",
+      "options": ["Nagisa", "Mika", "Seia", "Yuna"],
+      "correctanswer": "Nagisa",
+      "incorrect_answers": ["Mika", "Seia", "Yuna"]
+    },
+    {
+      "question": "Which faction in Holy Trinity Academy is known for its focus on order and discipline?",
+      "options": ["Pater", "Filius", "Sanctus", "Harmonia"],
+      "correctanswer": "Pater",
+      "incorrect_answers": ["Filius", "Sanctus", "Harmonia"]
+    },
+    {
+      "question": "What is the main motto of Holy Trinity Academy?",
+      "options": ["Order is our strength", "Harmony leads to success", "Elegance and Etiquette", "Triumph through unity"],
+      "correctanswer": "Elegance and Etiquette",
+      "incorrect_answers": ["Order is our strength", "Harmony leads to success", "Triumph through unity"]
+    },
+    {
+      "question": "Which club in Holy Trinity Academy is dedicated to music and performances?",
+      "options": ["Art Club", "Literature Club", "Music Club", "Harmony Club"],
+      "correctanswer": "Music Club",
+      "incorrect_answers": ["Art Club", "Literature Club", "Harmony Club"]
+    },
+    {
+      "question": "What is the official color of Holy Trinity Academy's uniforms?",
+      "options": ["Royal Blue", "Ivory White", "Rose Pink", "Golden Yellow"],
+      "correctanswer": "Ivory White",
+      "incorrect_answers": ["Royal Blue", "Rose Pink", "Golden Yellow"]
+    },
+    {
+      "question": "Which famous poet is associated with Holy Trinity Academy?",
+      "options": ["William Shakespeare", "Emily Dickinson", "Robert Frost", "John Keats"],
+      "correctanswer": "William Shakespeare",
+      "incorrect_answers": ["Emily Dickinson", "Robert Frost", "John Keats"]
+    },
+    {
+      "question": "What is the name of Holy Trinity Academy's annual cultural festival?",
+      "options": ["Harmony Fest", "Elegant Showcase", "Trinity Gala", "Cultural Harmony"],
+      "correctanswer": "Trinity Gala",
+      "incorrect_answers": ["Harmony Fest", "Elegant Showcase", "Cultural Harmony"]
+    },
+    {
+      "question": "Which mythical creature is the emblem of Holy Trinity Academy?",
+      "options": ["Phoenix", "Griffin", "Unicorn", "Pegasus"],
+      "correctanswer": "Unicorn",
+      "incorrect_answers": ["Phoenix", "Griffin", "Pegasus"]
+    },
+    {
+      "question": "Which subject is not taught in Holy Trinity Academy?",
+      "options": ["History of Etiquette", "Dance and Choreography", "Classical Literature", "Chaos Theory"],
+      "correctanswer": "Chaos Theory",
+      "incorrect_answers": ["History of Etiquette", "Dance and Choreography", "Classical Literature"]
+    },
+    {
+      "question": "What is the signature weapon used by Holy Trinity Academy's students in combat?",
+      "options": ["Holy Swords", "Sacred Bows", "Divine Wands", "Heavenly Spears"],
+      "correctanswer": "Holy Swords",
+      "incorrect_answers": ["Sacred Bows", "Divine Wands", "Heavenly Spears"]
+    },
+    {
+      "question": "Who is the most elegant student in Holy Trinity Academy?",
+      "options": ["Sakura Yamamoto", "Aoi Nakamura", "Ayumi Tanaka", "Haruka Suzuki"],
+      "correctanswer": "Aoi Nakamura",
+      "incorrect_answers": ["Sakura Yamamoto", "Ayumi Tanaka", "Haruka Suzuki"]
+    },
+    {
+      "question": "Which famous scientist is an alumnus of Holy Trinity Academy?",
+      "options": ["Albert Einstein", "Marie Curie", "Isaac Newton", "Nikola Tesla"],
+      "correctanswer": "Marie Curie",
+      "incorrect_answers": ["Albert Einstein", "Isaac Newton", "Nikola Tesla"]
+    },
+    {
+      "question": "What is Holy Trinity Academy's official motto when it comes to personal relationships?",
+      "options": ["Friendship above all", "Love conquers all", "Unity in diversity", "Etiquette in every interaction"],
+      "correctanswer": "Etiquette in every interaction",
+      "incorrect_answers": ["Friendship above all", "Love conquers all", "Unity in diversity"]
+    },
+    {
+      "question": "Which famous landmark is located near Holy Trinity Academy?",
+      "options": ["Big Ben", "Taj Mahal", "Statue of Liberty", "Eiffel Tower"],
+      "correctanswer": "Eiffel Tower",
+      "incorrect_answers": ["Big Ben", "Taj Mahal", "Statue of Liberty"]
+    },
+    {
+      "question": "Which supernatural creature is rumored to protect Holy Trinity Academy from evil spirits?",
+      "options": ["Guardian Angels", "Seraphim", "Archangels", "Valkyries"],
+      "correctanswer": "Seraphim",
+      "incorrect_answers": ["Guardian Angels", "Archangels", "Valkyries"]
+    }
+  ]
+}

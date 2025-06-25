@@ -1,0 +1,95 @@
+{
+    "questions": [
+      {
+        "question": "Who is the current leader of Gehenna's Pandemonium Society?",
+        "options": ["Madame Beatrice", "Monsieur Lucien", "Lady Isabella", "Lord Sebastian"],
+        "correctanswer": "Madame Beatrice",
+        "incorrect_answers": ["Monsieur Lucien", "Lady Isabella", "Lord Sebastian"]
+      },
+      {
+        "question": "Which faction is known for its rebellious and anarchic tendencies in Gehenna?",
+        "options": ["Pater", "Filius", "Sanctus", "Discordia"],
+        "correctanswer": "Discordia",
+        "incorrect_answers": ["Pater", "Filius", "Sanctus"]
+      },
+      {
+        "question": "What is the main motto of Gehenna Academy?",
+        "options": ["Freedom is our power", "Chaos breeds creativity", "Unleash your inner wild", "Embrace the limitless"],
+        "correctanswer": "Chaos breeds creativity",
+        "incorrect_answers": ["Freedom is our power", "Unleash your inner wild", "Embrace the limitless"]
+      },
+      {
+        "question": "Which club in Gehenna Academy is notorious for its pranks and mischief?",
+        "options": ["Art Club", "Literature Club", "Drama Club", "Trickster Club"],
+        "correctanswer": "Trickster Club",
+        "incorrect_answers": ["Art Club", "Literature Club", "Drama Club"]
+      },
+      {
+        "question": "What is the official color of Gehenna Academy's uniforms?",
+        "options": ["Crimson", "Midnight Blue", "Emerald Green", "Onyx Black"],
+        "correctanswer": "Crimson",
+        "incorrect_answers": ["Midnight Blue", "Emerald Green", "Onyx Black"]
+      },
+      {
+        "question": "Which famous poet is associated with Gehenna Academy?",
+        "options": ["Edgar Allan Poe", "William Shakespeare", "Lord Byron", "Emily Dickinson"],
+        "correctanswer": "Lord Byron",
+        "incorrect_answers": ["Edgar Allan Poe", "William Shakespeare", "Emily Dickinson"]
+      },
+      {
+        "question": "What is the name of Gehenna Academy's annual talent show?",
+        "options": ["Chaos Carnival", "Revelry Revue", "Anarchy Showcase", "Pandemonium Performance"],
+        "correctanswer": "Revelry Revue",
+        "incorrect_answers": ["Chaos Carnival", "Anarchy Showcase", "Pandemonium Performance"]
+      },
+      {
+        "question": "Which mythical creature is the emblem of Gehenna Academy?",
+        "options": ["Phoenix", "Dragon", "Unicorn", "Griffon"],
+        "correctanswer": "Griffon",
+        "incorrect_answers": ["Phoenix", "Dragon", "Unicorn"]
+      },
+      {
+        "question": "Which subject is not taught in Gehenna Academy?",
+        "options": ["Potions and Alchemy", "Dark Arts and Hexes", "Chaos Theory and Probability", "Etiquette and Elegance"],
+        "correctanswer": "Etiquette and Elegance",
+        "incorrect_answers": ["Potions and Alchemy", "Dark Arts and Hexes", "Chaos Theory and Probability"]
+      },
+      {
+        "question": "What is the signature weapon used by Gehenna Academy's students in combat?",
+        "options": ["Dual Pistols", "Katana Swords", "Energy Gauntlets", "Elemental Staffs"],
+        "correctanswer": "Energy Gauntlets",
+        "incorrect_answers": ["Dual Pistols", "Katana Swords", "Elemental Staffs"]
+      },
+      {
+        "question": "Who is the most mischievous student in Gehenna Academy?",
+        "options": ["Sakura Yamamoto", "Hiroshi Tanaka", "Mei Nakamura", "Kazuki Suzuki"],
+        "correctanswer": "Sakura Yamamoto",
+        "incorrect_answers": ["Hiroshi Tanaka", "Mei Nakamura", "Kazuki Suzuki"]
+      },
+      {
+        "question": "Which famous inventor is an alumnus of Gehenna Academy?",
+        "options": ["Nikola Tesla", "Thomas Edison", "Marie Curie", "Leonardo da Vinci"],
+        "correctanswer": "Nikola Tesla",
+        "incorrect_answers": ["Thomas Edison", "Marie Curie", "Leonardo da Vinci"]
+      },
+      {
+        "question": "What is Gehenna Academy's official battle cry?",
+        "options": ["Embrace the chaos!", "Unleash the fury!", "Fight for freedom!", "Rise above the limits!"],
+        "correctanswer": "Unleash the fury!",
+        "incorrect_answers": ["Embrace the chaos!", "Fight for freedom!", "Rise above the limits!"]
+      },
+      {
+        "question": "Which famous landmark is located near Gehenna Academy?",
+        "options": ["Tower of Babylon", "Eiffel Tower", "Colosseum", "Great Wall of China"],
+        "correctanswer": "Tower of Babylon",
+        "incorrect_answers": ["Eiffel Tower", "Colosseum", "Great Wall of China"]
+      },
+      {
+        "question": "Which supernatural creature is rumored to dwell within Gehenna Academy's underground catacombs?",
+        "options": ["Vampire", "Werewolf", "Banshee", "Siren"],
+        "correctanswer": "Werewolf",
+        "incorrect_answers": ["Vampire", "Banshee", "Siren"]
+      }
+    ]
+  }
+  
